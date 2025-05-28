@@ -57,7 +57,7 @@ p{
 
 /*header*/
 header{
-    background-color: blue;
+    background-color: rgb(18, 18, 240);
     
     position: sticky;
     top: 0px;
@@ -362,8 +362,22 @@ grid-template-columns:45% 10% 40% ;
         object-fit: cover;
         border-radius: 20px;
     }
-
 }
+.img-mujer {
+    background-color: aqua;
+}
+
+
+    
+
+
+
+
+    
+   
+    
+
+
 .contenedor-modelos{
     // display: grid;
    grid-template-columns: repeat(auto-fit, min-width 100%, 1fr);
@@ -490,3 +504,23 @@ grid-template-columns:45% 10% 40% ;
 @media (min-width:481px) and (max-width:769px) {
 
 }
+.container-mujer {
+     display: grid;
+   grid-template-columns: repeat(auto-fit, min-width 550px, 1fr);
+   grid-auto-rows: 1250px;
+   margin: 40px;
+   .img {
+     width: 100%;
+        height: 200%;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
+<div class="card" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>

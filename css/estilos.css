@@ -53,7 +53,7 @@ p {
 
 /*header*/
 header {
-  background-color: blue;
+  background-color: rgb(18, 18, 240);
   position: sticky;
   top: 0px;
   padding: 10px;
@@ -144,8 +144,10 @@ nav a:hover {
 }
 .banner img {
   width: 100%;
-  object-fit: cover;
-  object-position: right;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: right;
+     object-position: right;
 }
 @media (min-width: 768px) {
   .banner img {
@@ -298,7 +300,8 @@ nav a:hover {
 .gallery-container img {
   width: 30%;
   height: 120%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 20px;
 }
 
@@ -311,7 +314,8 @@ nav a:hover {
 .contenedor-hombre img {
   width: 30%;
   height: 120%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 20px;
 }
 
@@ -322,7 +326,8 @@ nav a:hover {
 }
 .contenedor-modelos img {
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 20px;
 }
 
@@ -335,7 +340,8 @@ nav a:hover {
 .container-nino img {
   width: 100%;
   height: 200%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 20px;
 }
 
@@ -411,6 +417,4 @@ nav a:hover {
   padding-left: 0;
 }
 
-/*table*/
-
-/*# sourceMappingURL=estilos.css.map */
+/*table*//*# sourceMappingURL=estilos.css.map */
